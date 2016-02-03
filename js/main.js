@@ -7,26 +7,20 @@
 (function($) {
 
    /*---------------------------------------------------- */
-	/* Preloader
-	------------------------------------------------------ */ 
-   $(window).load(function() {
-
-      // will first fade out the loading animation 
-    	$("#loader").fadeOut("slow", function(){
-
-        // will fade out the whole DIV that covers the website.
-        $("#preloader").delay(300).fadeOut("slow");
-
-      });     
-
-  	})
-
-   /*---------------------------------------------------- */
 	/* Final Countdown Settings
 	------------------------------------------------------ */
-	var finalDate = '2017/01/01';
+	$('div#edinburgh-counter').countdown('2016/07/01')
+   	.on('update.countdown', function(event) {
 
-	$('div#counter').countdown(finalDate)
+   		$(this).html(event.strftime('<span>%D <em>days</em></span>' + 
+   										 	 '<span>%H <em>hours</em></span>' + 
+   										 	 '<span>%M <em>minutes</em></span>' +
+   										 	 '<span>%S <em>seconds</em></span>'));
+
+   });
+
+  /** greenville counter **/
+  $('div#greenville-counter').countdown('2016/09/15')
    	.on('update.countdown', function(event) {
 
    		$(this).html(event.strftime('<span>%D <em>days</em></span>' + 
@@ -118,36 +112,9 @@
 	------------------------------------------------------ */
 
 	// Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-	var mailChimpURL = 'http://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e65110b38d'
-
-
 	$('#mc-form').ajaxChimp({
-
-		language: 'es',
-	   url: mailChimpURL
-
+	   url: 'http://restfest.us7.list-manage1.com/subscribe/post?u=dc5d847a1bf683803f067bcc4&id=e8112b5bc0'
 	});
-
-	// Mailchimp translation
-	//
-	//  Defaults:
-	//	 'submit': 'Submitting...',
-	//  0: 'We have sent you a confirmation email',
-	//  1: 'Please enter a value',
-	//  2: 'An email address must contain a single @',
-	//  3: 'The domain portion of the email address is invalid (the portion after the @: )',
-	//  4: 'The username portion of the email address is invalid (the portion before the @: )',
-	//  5: 'This email address looks fake or invalid. Please enter a real email address'
-
-	$.ajaxChimp.translations.es = {
-	  'submit': 'Submitting...',
-	  0: '<i class="fa fa-check"></i> We have sent you a confirmation email',
-	  1: '<i class="fa fa-warning"></i> You must enter a valid e-mail address.',
-	  2: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-	  3: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-	  4: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-	  5: '<i class="fa fa-warning"></i> E-mail address is not valid.'
-	}
 
 	/*---------------------------------------------------- */
 	/* Map

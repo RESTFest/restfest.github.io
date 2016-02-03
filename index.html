@@ -8,7 +8,7 @@
 	<!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Advent</title>
+	<title>REST Fest - collaborative unconference @ RESTful Web Services</title>
    <meta name="description" content="">  
    <meta name="author" content="">
 
@@ -21,6 +21,8 @@
    <link rel="stylesheet" href="css/base.css">
    <link rel="stylesheet" href="css/vendor.css">
    <link rel="stylesheet" href="css/main.css">
+   <!-- restfest -->
+   <link rel="stylesheet" href="css/restfest.css">
 
    <!-- Modernizr
    =================================================== -->
@@ -53,20 +55,46 @@
 
             <div id="main-content" class="twelve columns">
 
-               <h1>Our website is almost ready.</h1>
+               <h1>Collaborative Conferences
+                 <br>@ RESTful Web Services</h1>
 
-               <p> Lorem ipsum dolor sit amet, consectetuer adipiscing. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, 
-                  lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit.
-               </p>
-
+<p>Developed by <a href="http://mamund.com/">Mike Amundsen</a> and <a href="http://www.bigbluehat.com/">Benjamin Young</a>.</p>
+<ul class="footer-copyright" style="float: none">
+  <li>Past Events:</li>
+  <li><a href="http://2015.restfest.org/">2015</a></li>
+  <li><a href="http://2014.restfest.org/">2014</a></li>
+  <li><a href="http://2013.restfest.org/">2013</a></li>
+  <li><a href="http://2012.restfest.org/">2012</a></li>
+  <li><a href="http://2011.restfest.org/">2011</a></li>
+  <li><a href="http://2010.restfest.org/">2010</a></li>
+</ul>
                <hr>
+               <h1>Next Up!</h1>
+               <h2>Hypermedia Day - February 9th - Greenville, SC</h2>
+               <p>Join Benjamin Young for a full day of Hypermedia Tutorialing
+               <br>presented by Mike Amundsen &amp; O'Reilly Media.</p>
+               <p>$155 for a full day of fun! <a href="http://www.eventbrite.com/e/hypermedia-day-tickets-21235622318?ref=ebtnebregn" target="_blank"><img style="vertical-align: middle" src="https://www.eventbrite.com/custombutton?eid=21235622318" alt="Eventbrite - Hypermedia Day" /></a></p>
+               <hr>
+               <br>
 
-               <div id="counter" class="group">
+               <h1>The Main Events</h1>
+               <h2>REST Fest UK - July - Edinburgh, Scotland</h2>
+               <div id="edinburgh-counter" class="counter group">
                   <span>134 <em>days</em></span> 
                   <span>12 <em>hours</em></span>
                   <span>50 <em>minutes</em></span>
                   <span>33 <em>seconds</em></span> 
                </div>                  
+
+
+               <h2>REST Fest - September 15-17th - Greenville, SC</h2>
+               <div id="greenville-counter" class="counter group">
+                  <span>134 <em>days</em></span> 
+                  <span>12 <em>hours</em></span>
+                  <span>50 <em>minutes</em></span>
+                  <span>33 <em>seconds</em></span> 
+               </div>                  
+
 
                <!-- MailChimp Signup Form -->
                <div id="mc-signup">
@@ -75,7 +103,7 @@
                           
                		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>                       
                                        
-                     <input type="submit" value="Get Notified" name="subscribe" class="button">
+                     <input type="submit" value="Stay Updated" name="subscribe" class="button">
 
                      <label for="mce-EMAIL" class="subscribe-message"></label>
                        
@@ -85,12 +113,12 @@
 
             </div><!-- /main-content form -->
 
-            <div class="modal-toggles">
+            <!--div class="modal-toggles">
                <ul>
                     <li class="about-us"><a href="#mod-about">More about us</a></li>
                     <li class="location"><a href="#mod-map">Our Location</a></li>
                </ul>
-            </div><!-- /modal-toggles --> 	
+            </div--><!-- /modal-toggles --> 	
             
       </main>	      
 
@@ -222,27 +250,23 @@
    <footer class="group">         
 
      	<ul class="footer-social">
-         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-         <li><a href="#"><i class="fa fa-skype"></i></a></li>
+         <!--li><a href="#"><i class="fa fa-facebook"></i></a></li-->
+         <li><a href="http://twitter.com/restfest"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="http://github.com/restfest"><i class="fa fa-github"></i></a></li>
+         <!--li><a href="#"><i class="fa fa-google-plus"></i></a></li-->
+         <!--li><a href="#"><i class="fa fa-linkedin"></i></a></li-->
+         <!--li><a href="#"><i class="fa fa-instagram"></i></a></li-->
+         <!--li><a href="#"><i class="fa fa-dribbble"></i></a></li-->
+         <!--li><a href="#"><i class="fa fa-skype"></i></a></li-->
      	</ul>   
 
      	<ul class="footer-copyright">
-         <li>&copy; Copyright 2015 Advent</li>
-         <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+         <li>&copy; copyright 2015 REST Fest</li>
+         <li>design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
       </ul>  
         
    </footer> 
 
-   <div id="preloader"> 
-    	<div id="loader">
-     	</div>
-   </div> 
-   
 <!-- Script
 =================================================== -->
 <script src="js/jquery-1.11.3.min.js"></script>
@@ -254,6 +278,14 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.ajaxchimp.min.js"></script>
 <script src="js/main.js"></script>    
-        
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80336-20', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
 </html>

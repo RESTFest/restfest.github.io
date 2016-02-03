@@ -1,0 +1,74 @@
+html {
+  background: #fefefe;
+}
+
+main h1 {
+  color: #A5CB39;
+}
+main hr {
+  border-color: #A5CB39;
+}
+main p {
+  color: #ccc;
+}
+
+main .site-header .logo a {
+  width: 458px;
+  height: 212px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: contain;
+}
+
+footer {
+  background: rgba(255,255,255,0.9);
+  color: #ddd;
+}
+footer a,
+footer a:visited {
+  color: #ccc;
+}
+footer a:hover,
+footer a:focus {
+  color: #A5CB39;
+}
+
+.footer-copyright li::before {
+  color: #ccc;
+}
+
+.footer-social {
+  text-shadow: none;
+}
+.footer-social li a {
+  color: #ccc;
+}
+.footer-social li a:hover {
+  color: #A5CB39;
+}
+
+
+/** things **/
+.counter,
+.counter span em {
+  color: #ccc;
+}
+
+#mc-signup input[type="email"] {
+  background: #eee;
+}
+#mc-signup input[type="submit"] {
+  background: #A5CB39;
+}
+#mc-signup label {
+  color: #bbb;
+}
+
+.modal-toggles li a {
+  color: #A5CB39;
+  text-decoration: underline;
+  padding: 0 40px 0 40px;
+}
+.modal-toggles .about-us a::before,
+.modal-toggles .location a::before {
+  display: none;
+}
