@@ -72,3 +72,17 @@ footer a:focus {
 .modal-toggles .location a::before {
   display: none;
 }
+
+@media only screen and (max-width:900px) {
+  main .site-header .logo a {
+    width: 400px;
+    height: 185px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  main .site-header .logo a {
+    width: 250px;
+    height: 120px;
+  }
+}
