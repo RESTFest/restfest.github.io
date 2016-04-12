@@ -10,32 +10,19 @@
 	/* Final Countdown Settings
 	------------------------------------------------------ */
 
-var $ec = $('div#edinburgh-counter');
-var ec_startDate = $ec.find('[property=startDate]').attr('content');
+  var template = '<span>%D <em>days</em></span>' +
+                 '<span>%H <em>hours</em></span>' +
+                 '<span>%M <em>minutes</em></span>' +
+                 '<span>%S <em>seconds</em></span>';
 
-$ec.countdown(ec_startDate)
-   	.on('update.countdown', function(event) {
-
-   		$(this).html(event.strftime('<span>%D <em>days</em></span>' + 
-   										 	 '<span>%H <em>hours</em></span>' + 
-   										 	 '<span>%M <em>minutes</em></span>' +
-   										 	 '<span>%S <em>seconds</em></span>'));
-
-   });
-
-  /** greenville counter **/
-var $gc = $('div#greenville-counter');
-var gc_startDate = $gc.find('[property=startDate]').attr('content');
-
-$gc.countdown(gc_startDate)
-   	.on('update.countdown', function(event) {
-
-   		$(this).html(event.strftime('<span>%D <em>days</em></span>' + 
-   										 	 '<span>%H <em>hours</em></span>' + 
-   										 	 '<span>%M <em>minutes</em></span>' +
-   										 	 '<span>%S <em>seconds</em></span>'));
-
-   });
+  $('.counter.group').each(function(i, el) {
+    var startDate = $(el).find('[property=startDate]').attr('content');
+    $(el)
+      .countdown(startDate)
+      .on('update.countdown', function(event) {
+        $(this).html(event.strftime(template));
+      });
+  });
 
    /*----------------------------------------------------*/
 	/*  Placeholder Plugin Settings
