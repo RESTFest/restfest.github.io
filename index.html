@@ -34,7 +34,7 @@
     
 </head>
     
-<body>
+<body vocab="http://schema.org/">
 
    <!--[if lt IE 9]>
    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. 
@@ -70,14 +70,26 @@
                <hr>
                <br>
 
+             <div typeof="Event">
                <h1 id="upcoming">Upcoming Events</h1>
-               <h2>REST Fest UK - July 14-17<sup>th</sup> - Edinburgh, Scotland</h2>
+               <h2><span property="name">REST Fest UK</span>
+                 - July 14-16<sup>th</sup> -
+                 <span property="location" typeof="Place">
+                   <span property="address" typeof="PostalAddress">
+                     <span property="addressLocality">Edinburgh</span>,
+                     <span property="addressRegion">Scotland</span>
+                   </span>
+                 </span>
+               </h2>
                <div id="edinburgh-counter" class="counter group">
+                 <meta property="startDate" content="2016-07-14" />
+                 <meta property="endDate" content="2016-07-16" />
                   <span>134 <em>days</em></span> 
                   <span>12 <em>hours</em></span>
                   <span>50 <em>minutes</em></span>
                   <span>33 <em>seconds</em></span> 
                </div>
+             </div>
 
 
                <h2>REST Fest - September 15-17<sup>th</sup> - Greenville, SC</h2>

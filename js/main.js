@@ -9,7 +9,10 @@
    /*---------------------------------------------------- */
 	/* Final Countdown Settings
 	------------------------------------------------------ */
-	$('div#edinburgh-counter').countdown('2016/07/14')
+var $ec = $('div#edinburgh-counter');
+var ec_startDate = $ec.find('[property=startDate]').attr('content');
+
+$ec.countdown(ec_startDate)
    	.on('update.countdown', function(event) {
 
    		$(this).html(event.strftime('<span>%D <em>days</em></span>' + 
