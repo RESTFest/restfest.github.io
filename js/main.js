@@ -9,7 +9,7 @@
    /*---------------------------------------------------- */
 	/* Final Countdown Settings
 	------------------------------------------------------ */
-	$('div#edinburgh-counter').countdown('2016/07/01')
+	$('div#edinburgh-counter').countdown('2016/07/14')
    	.on('update.countdown', function(event) {
 
    		$(this).html(event.strftime('<span>%D <em>days</em></span>' + 
