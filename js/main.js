@@ -9,6 +9,7 @@
    /*---------------------------------------------------- */
 	/* Final Countdown Settings
 	------------------------------------------------------ */
+
 var $ec = $('div#edinburgh-counter');
 var ec_startDate = $ec.find('[property=startDate]').attr('content');
 
@@ -23,7 +24,10 @@ $ec.countdown(ec_startDate)
    });
 
   /** greenville counter **/
-  $('div#greenville-counter').countdown('2016/09/15')
+var $gc = $('div#greenville-counter');
+var gc_startDate = $gc.find('[property=startDate]').attr('content');
+
+$gc.countdown(gc_startDate)
    	.on('update.countdown', function(event) {
 
    		$(this).html(event.strftime('<span>%D <em>days</em></span>' + 
