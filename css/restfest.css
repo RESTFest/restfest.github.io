@@ -68,6 +68,7 @@ footer a:focus {
 }
 #mc-signup label {
   color: #bbb;
+  min-height: auto;
 }
 
 .modal-toggles li a {
