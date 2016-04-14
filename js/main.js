@@ -12,8 +12,7 @@
 
   var template = '<span>%D <em>days</em></span>' +
                  '<span>%H <em>hours</em></span>' +
-                 '<span>%M <em>minutes</em></span>' +
-                 '<span>%S <em>seconds</em></span>';
+                 '<span>%M <em>minutes</em></span>';
 
   $('.counter.group').each(function(i, el) {
     var startDate = $(el).find('[property=startDate]').attr('content');
