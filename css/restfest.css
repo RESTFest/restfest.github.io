@@ -81,6 +81,17 @@ footer a:focus {
   display: none;
 }
 
+div[typeof=Event] {
+  width: 50%;
+  float: left;
+}
+
+div[typeof=Event] h1,
+div[typeof=Event] h3,
+div[typeof=Event] h4 {
+  margin: 0;
+}
+
 @media only screen and (max-width:900px) {
   main .site-header .logo a {
     width: 400px;
@@ -93,15 +104,8 @@ footer a:focus {
     width: 250px;
     height: 120px;
   }
-}
-
-div[typeof=Event] {
-  width: 50%;
-  float: left;
-}
-
-div[typeof=Event] h1,
-div[typeof=Event] h3,
-div[typeof=Event] h4 {
-  margin: 0;
+  div[typeof=Event] {
+    width: 100%;
+    float: none;
+  }
 }
