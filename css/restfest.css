@@ -84,10 +84,12 @@ footer a:focus {
 [typeof=Event] {
   width: 50%;
   float: left;
-  border-bottom: 1px solid white;
 }
-[typeof=Event][href]:hover {
-  border-bottom: 1px solid #A5CB39;
+[typeof=Event] .counter.group {
+  border-top: 1px solid white;
+}
+[typeof=Event][href]:hover .counter.group {
+  border-top: 1px solid #A5CB39;
 }
 [typeof=Event] h1,
 [typeof=Event] h3,
