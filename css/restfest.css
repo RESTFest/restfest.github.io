@@ -2,6 +2,11 @@ html {
   background: #fefefe;
 }
 
+a:hover,
+a:focus {
+  color: #A5CB39;
+}
+
 main h1 {
   color: #A5CB39;
 }
@@ -26,10 +31,6 @@ footer {
 footer a,
 footer a:visited {
   color: #ccc;
-}
-footer a:hover,
-footer a:focus {
-  color: #A5CB39;
 }
 
 .footer-copyright li::before {
