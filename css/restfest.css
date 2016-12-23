@@ -2,6 +2,10 @@ html {
   background: #fefefe;
 }
 
+#content-wrap {
+  padding-top: 3%;
+}
+
 a:hover,
 a:focus {
   color: #A5CB39;
@@ -82,10 +86,10 @@ footer a:visited {
   display: none;
 }
 
-/*[typeof=Event] {
+[typeof=Event] {
   width: 50%;
   float: left;
-}*/
+}
 [typeof=Event] .counter.group {
   border-top: 1px solid white;
 }
