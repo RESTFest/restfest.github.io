@@ -87,8 +87,9 @@ footer a:visited {
 }
 
 [typeof=Event] {
-  width: 50%;
-  float: left;
+/*  width: 50%;
+  float: left;*/
+  display: block;
   padding: 1.3em;
 }
 a[typeof=Event]:hover {
