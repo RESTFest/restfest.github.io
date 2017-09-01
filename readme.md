@@ -4,7 +4,9 @@ This is the main lading page for https://restfest.org/
 
 Feel free to contribute. We love that!
 
-==================================================================================================
+#### Based on the Advent them from [Styleshout](http://www.Styleshout.com)
+
+---
 
 ADVENT is a clean, modern and well-crafted coming soon HTML5 template. It’s the perfect template 
 to keep your visitors informed about the official website launch. The template features a 
@@ -12,8 +14,7 @@ countdown timer, a google map section, an about section where you can add inform
 your website and a mailchimp ready ajax subscription form. The template is very customizable 
 and pretty easy to use.
 
-==================================================================================================
-
+---
 
 LICENSE:
 
