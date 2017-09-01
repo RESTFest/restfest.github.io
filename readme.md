@@ -1,7 +1,12 @@
+# REST Fest - collaborative unconferences
+
+This is the main lading page for https://restfest.org/
+
+Feel free to contribute. We love that!
 
 ==================================================================================================
 
-ADVENT is a clean, modern and well-crafted coming soon HTML5 template. It’s the perfect template 
+ADVENT is a clean, modern and well-crafted coming soon HTML5 template. Itâ€™s the perfect template 
 to keep your visitors informed about the official website launch. The template features a 
 countdown timer, a google map section, an about section where you can add information about 
 your website and a mailchimp ready ajax subscription form. The template is very customizable 
