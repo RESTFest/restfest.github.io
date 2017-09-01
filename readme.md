@@ -2,6 +2,8 @@
 
 This is the main lading page for https://restfest.org/
 
+Each event has [it's own repo](https://github.com/RESTFest?utf8=%E2%9C%93&q=&type=source&language=) and (usually) site named following this pattern: `{year}-{location}`
+
 Feel free to contribute. We love that!
 
 #### Based on the Advent them from [Styleshout](http://www.Styleshout.com)
