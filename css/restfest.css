@@ -11,6 +11,9 @@ a:focus {
   color: #A5CB39;
 }
 
+/** from https://www.abeautifulsite.net/how-to-embed-youtubevimeo-videos-responsively **/
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
 main h1 {
   color: #A5CB39;
 }
@@ -108,6 +111,9 @@ a[typeof=Event]:hover [property=location] {
 [typeof=Event] h3,
 [typeof=Event] h4 {
   margin: 0;
+}
+[typeof=Event] [property=addressCountry] {
+  opacity: 0.5;
 }
 
 @media only screen and (max-width:900px) {
