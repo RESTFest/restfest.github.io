@@ -112,9 +112,6 @@ a[typeof=Event]:hover [property=location] {
 [typeof=Event] h4 {
   margin: 0;
 }
-[typeof=Event] [property=addressCountry] {
-  opacity: 0.5;
-}
 
 @media only screen and (max-width:900px) {
   main .site-header .logo a {
