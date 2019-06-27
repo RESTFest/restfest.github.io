@@ -32,6 +32,7 @@ main .site-header .logo a {
 }
 
 footer {
+  position: static;
   background: rgba(255,255,255,0.9);
   color: #ddd;
 }
