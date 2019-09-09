@@ -106,7 +106,7 @@
 
 	// Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
 	$('#mc-form').ajaxChimp({
-	   url: 'http://restfest.us7.list-manage1.com/subscribe/post?u=dc5d847a1bf683803f067bcc4&id=e8112b5bc0'
+	   url: 'https://restfest.us7.list-manage1.com/subscribe/post?u=dc5d847a1bf683803f067bcc4&id=e8112b5bc0'
 	});
 
 	/*---------------------------------------------------- */
